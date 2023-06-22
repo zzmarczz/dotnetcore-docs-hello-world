@@ -5,8 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+</Project>
 
- <ItemGroup>
+  <ItemGroup>
    <Reference Include=“AppDynamics.Agent.netstandard”>
       <HintPath>AppDynamics.Agent.netstandard.dll</HintPath>
    </Reference>
@@ -14,5 +15,3 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
    </Content>
  </ItemGroup>
-
-</Project>
