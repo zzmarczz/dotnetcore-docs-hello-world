@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'WindowsNetTest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CF0AFC6DABBE45F1B2E70AD5FB792941 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_859AD487459A4CF28267FFE9C0D29449 }}
           package: .
