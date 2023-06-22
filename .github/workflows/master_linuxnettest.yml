@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'LinuxNetTest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_44D28CD3A3F440AC9DC0DA5B7E3124A6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D1FEC96459B14B9BBEE1ABA659073A02 }}
           package: .
