@@ -4,10 +4,11 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 # Work within a folder named `/source`
 WORKDIR /source
 
-#RUN mkdir -p /opt/appdynamics/dotnet
-
-#ADD /home/site/wwwroot/wwwroot/opt/appdynamics/libappdprofiler.so /opt/appdynamics/dotnet/
-#ADD /home/site/wwwroot/wwwroot/opt/appdynamics/AppDynamics.Agent.netstandard.dll /opt/appdynamics/dotnet/
+RUN mkdir -p /opt/appdynamics/dotnet
+ADD libappdprofiler.so /home/site/wwwroot/opt/appdynamics/dotnet/
+ADD libappdprofiler_glibc.so /home/site/wwwroot/opt/appdynamics/dotnet/
+ADD libappdprofiler_musl.so /home/site/wwwroot/opt/appdynamics/dotnet/
+ADD AppDynamics.Agent.netstandard.dll /home/site/wwwroot/opt/appdynamics/dotnet/
 
 # Copy everything in this project and build app
 COPY . ./dotnetcore-docs-hello-world/
