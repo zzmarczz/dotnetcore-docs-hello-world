@@ -5,5 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+  <ItemGroup>
+   <Reference Include=“AppDynamics.Agent.netstandard”>
+      <HintPath>/home/site/wwwroot/opt/appdynamics/AppDynamics.Agent.netstandard.dll</HintPath>
+   </Reference>
+   <Content Include=“/home/site/wwwroot/opt/appdynamics/libappdprofiler.so”>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+   </Content>
+ </ItemGroup>
 </Project>
 
