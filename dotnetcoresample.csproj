@@ -4,13 +4,9 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
   <ItemGroup>
-   <Reference Include=“/home/site/wwwroot/opt/appdynamics/AppDynamics.Agent.netstandard.dll”>
-   </Reference>
-   <Content Include=“/home/site/wwwroot/opt/appdynamics/libappdprofiler.so”>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-   </Content>
+   <Reference Include=“/home/site/wwwroot/opt/appdynamics/AppDynamics.Agent.netstandard.dll“/>
+   <Content Include=“/home/site/wwwroot/opt/appdynamicslibappdprofiler.so”/>
  </ItemGroup>
 </Project>
 
