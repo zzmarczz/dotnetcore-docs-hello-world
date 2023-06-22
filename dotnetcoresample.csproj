@@ -7,11 +7,3 @@
   </PropertyGroup>
 </Project>
 
-  <ItemGroup>
-   <Reference Include=“AppDynamics.Agent.netstandard”>
-      <HintPath>AppDynamics.Agent.netstandard.dll</HintPath>
-   </Reference>
-   <Content Include=“libappdprofiler*.so”>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-   </Content>
- </ItemGroup>
