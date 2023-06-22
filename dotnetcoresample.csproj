@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   <ItemGroup>
    <Reference Include=“/home/site/wwwroot/opt/appdynamics/AppDynamics.Agent.netstandard.dll“/>
-   <Content Include=“/home/site/wwwroot/opt/appdynamicslibappdprofiler.so”/>
+   <Content Include=“/home/site/wwwroot/opt/appdynamics/libappdprofiler.so”/>
  </ItemGroup>
 </Project>
 
