@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
   <ItemGroup>
-    <Reference Include=“AppDynamics.Agent.netstandard”>
-      <HintPath>/home/site/wwwroot/AppDynamics.Agent.netstandard.dll</HintPath>
-    </Reference>
+   <Content Include=“libappdprofiler*.so”>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+   </Content>
     </ItemGroup>
 </Project>
 
