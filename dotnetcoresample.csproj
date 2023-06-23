@@ -8,6 +8,6 @@
     <Reference Include=“AppDynamics.Agent.netstandard”>
       <HintPath>/home/site/wwwroot/AppDynamics.Agent.netstandard.dll</HintPath>
     </Reference>
-    </ItemGroup
+    </ItemGroup>
 </Project>
 
