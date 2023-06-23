@@ -4,12 +4,5 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
-    <ItemGroup>
-   <Reference Include=“AppDynamics.Agent.netstandard”>
-      <HintPath>AppDynamics.Agent.netstandard.dll</HintPath>
-   </Reference>
-   
-   </Content>
- </ItemGroup>
 </Project>
 
