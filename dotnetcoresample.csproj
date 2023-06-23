@@ -6,7 +6,7 @@
     </PropertyGroup>
   <ItemGroup>
     <Reference Include=“AppDynamics.Agent.netstandard”>
-      <HintPath>AppDynamics.Agent.netstandard.dll</HintPath>
+      <HintPath>/home/site/wwwroot/AppDynamics.Agent.netstandard.dll</HintPath>
     </Reference>
     </ItemGroup
 </Project>
